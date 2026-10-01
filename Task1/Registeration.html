@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <h2>Registeration Form</h2>
+        <!--Firstname-->
+        <div>
+            <label for="firstname">First name :</label>
+            <input type="text" pattern="[A-Za-z]+" required name="firstName" >
+        </div>
+        <br>
+
+        <!--PhoneNumber-->
+        <div>
+            <label for="phone">Phone Number :</label>
+            <input type="tel" pattern="01[012][0-9]{8}" maxlength="11" name="phoneNumber" required>
+        </div>
+        <br>
+
+        <!--Courses-->
+        <div>
+            <label>Courses :</label>
+             <input list="coursesList" name="courses">
+            <datalist id="coursesList">
+                <option value="Frontend"></option>
+                <option value="Backend"></option>
+                <option value="Mobileapp"></option>
+            </datalist>
+        </div>
+        <br>
+
+        <!--Image-->
+        <div>
+            <label>Upload your image :</label>
+            <input type="file" name="image" accept=".png">
+        </div>
+        <br>
+
+        <!--Comment-->
+        <div>
+            <textarea name="CommentHere" rows="5" cols="20" placeholder="Comment here" minlength="20" maxlength="100"></textarea>
+        </div>
+        <br>
+
+        <!--Date-->
+        <div>
+            <label>Date :</label>
+            <input type="date" name="date" required>
+        </div>
+        <br>
+
+        <!--ID-->
+        <div>
+            <label>ID :</label>
+            <input type="number" name="id" >
+        </div>
+        <br>
+
+        <!--submit button-->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+
+    </form>
+</body>
+</html>
