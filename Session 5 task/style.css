@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: #1c1c1c
+}
+
+.nav-logo{
+    font-size: 26px;
+    color: white;
+}
+.nav-Links{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.nav-Links a{
+    color: white;
+    font-size: 18px;
+}
+
+.main-div{
+    background: url("images/LONDON-SIGHTSEEING-FEATURE-compressed.jpg") center / cover no-repeat;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    color: white;
+
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.main-div-text h2{
+    font-size: 40px;
+}
+
+.main-div span{
+    color: coral;
+}
+
+.main-div-text hr{
+    width: 75px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+.paragraph{
+    color: darkgray;
+}
+.btn-transparent {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 1% 2%;
+    margin: 2% 2%;
+    display: block;
+}
+
+.trial-card{
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    border-radius: 4px;
+}
+
+.trial-card-title{
+    margin: 0;
+    padding: 18px 20px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-size: 17px;
+    background-color: rgb(199, 198, 198);
+}
+.trial-card-title span{
+    color: coral;
+}
+
+.trial-card-inputs{
+    padding: 30px 32px 36px;
+    gap: 30px;
+}
+
+.trial-card-inputs input{
+    padding: 12px 4px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(132, 129, 129);
+    outline: none;
+}
+
+.trial-card-button{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: coral;
+    color: white;
+    font-size: 15px;
+    border: none;
+
+}
+
+.contact-card{
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+}
+
+.card-container {
+    width: 80%;
+    margin: auto;
+    padding: 20% 30%;
+}
+
+.w-100{
+    width: 100%;
+}
+.card-body{
+    padding: 3%;
+}
+
+.contact-card-link{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgb(173, 90, 21);
+    margin-top: 6%;
+}
+
+.position-img{
+   width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: calc(100% - 30px);
+    left: 40%;
+}
+
+
+
+
