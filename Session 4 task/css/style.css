@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: #022864
+}
+
+.nav-title{
+    color: white;
+    margin-left:2px;
+}
+
+.nav-title i{
+    color: rgb(168, 108, 18);
+}
+.nav-Links{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.nav-Links a{
+    color: rgb(168, 168, 168);
+    font-size: 15px;
+}
+
+.main-section{
+    text-align: center;
+    color: white;
+    background: url("../images/purple-shiny-space-particle-powder-looping-flow-animation-for-abstract-art-fantasy-presentation-motion-silver-background-free-video.jpg") center / cover no-repeat;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.25);
+    padding: 100px 30px ;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.container h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container p{
+    font-size: 18px;
+    color: darkgrey;
+    margin-bottom: 30px;
+}
+
+.main-section-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+ }
+
+ .button{
+    border: none;
+    border-radius: 50px;
+    padding: 13px 28px;
+    font-size: 15px;
+ }
+
+ .first-btn{
+    color: black;
+    background: orange;
+ }
+
+ .btn-outline{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+ }
+
+ .about-section{
+    padding: 70px 8%;
+    text-align: center;
+ }
+
+ .about-section h2{
+    font-size: 40px;
+    color: rgb(9, 9, 72);
+    margin-bottom: 10px;
+ }
+
+ .about-section p{
+    font-size: 20px ;
+    color: darkgray;
+    margin-bottom: 50px;
+ }
+
+ .cards{
+    display: grid;
+    gap: 24px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+ .card-features{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 30px 25px;
+ }
+
+ .card-features h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+ }
+ .card-features p{
+    font-size: 15px;
+ }
+
+ .icon-circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: lightblue;
+    margin: 0 auto 18px;
+    color: #022864;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+ .course-section{
+    background: rgb(244, 245, 245);
+    border-radius: 30px;
+    text-align: center;
+    border: 5px solid white;
+ }
+ .course-section h2{
+    font-size: 30px;
+   padding: 18px 20px;
+   color: #022864;
+   margin-bottom: 3px;
+ }
+
+ .course-section p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+ }
+ .course-icon{
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    font-size: 64px;
+    border-radius: 20px;
+ }
+
+ .course-icon.html{
+    background: orangered;
+ }
+ .course-icon.css{
+    background: rgb(19, 87, 189);
+ }
+ .course-icon.js{
+    background: rgb(234, 218, 40);
+ }
+
+ .course-body{
+    padding: 20px 22px 24px;
+ }
+
+ .course-body h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: left;
+ }
+
+ .course-content{
+    display: flex;
+    gap: 14px;
+    color: gray;
+    margin-bottom: 16px;
+ }
+
+ .course-content i{
+    color: #094bb4;
+ }
+
+ .course-price{
+    display: inline-block;
+    background: green;
+    color: white;
+    font-size: 13px;
+    padding: 5px 16px;
+    border-radius: 50px;
+    margin-right: 300px;
+ }
+
+ .bar{
+    background-color: #094bb4;
+    color: white;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    padding: 45px 8%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .bar-section i{
+    display: block;
+    color: rgb(255, 106, 0);
+    font-size: 30px;
+    margin-bottom: 6px;
+ }
+
+ .bar-section strong{
+    display: block;
+    font-size: 32px;
+ }
+
+ .bar-section span{
+    color: darkgrey;
+    font-size: 15px;
+ }
+
+
+
