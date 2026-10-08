@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    column-gap: 18px;
+    background: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-style{
+    background: url("../images/Italy-historical-places.jpeg" ) center / cover no-repeat;
+    height: 416px;
+    color: white;
+    position: relative;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    inset: 0;
+}
+
+.container{
+    height: 100%;
+    position: relative;
+}
+
+.nav-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 10px 12px;
+    border-bottom: 1px solid white;
+}
+
+.title-style{
+    font-size: 18px;
+}
+
+.nav-style ul{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.header-content{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    bottom: 50px;
+}
+.header-content-text{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 18px;
+    flex: none;
+    width: 320px;
+}
+
+
+
+
