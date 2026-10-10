@@ -66,6 +66,118 @@ a{
     width: 320px;
 }
 
+.layout{
+    display:grid;
+    grid-template-columns:1fr 360px;
+    gap:30px;
+    padding-top:70px;
+    padding-left: 40px;
+}
 
+.content section{
+    margin-bottom:60px
+}
+
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+.content-header h2{
+    font-size: 18px;
+    margin-bottom: 12px;
+    
+}
+
+.tabs{
+    display: flex;
+    gap: 28px;
+    font-size: 12px;
+    color: grey;
+}
+
+.tabs li{
+    padding: 10px 0;
+}
+
+.content-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.card{
+    background: white;
+    box-shadow: 0px 0px 7px 3px #acacac;
+}
+
+.card h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card h4{
+    font-size: 12px;
+}
+
+.card p{
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.big-card{
+    padding: 20px;
+}
+
+.big-card-content{
+    padding: 20px;
+}
+.thumb{
+    position: relative;
+    height: 200px;
+}
+.tag{
+    position: absolute;
+    left: 100px;
+    background: white;
+    color: dodgerblue;
+    font-size: 10px;
+    padding: 2px 12px;
+}
+
+.small-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 15px;
+}
+
+.small-card img{
+    flex: none;
+    width: 100px;
+    height: 100px;
+}
+
+.small-card div{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+}
 
 
