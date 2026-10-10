@@ -1,0 +1,172 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f1f2f5;
+  color: #1b1b1f;
+  padding: 48px 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 28px;
+  margin: 0 auto;
+}
+
+
+.card {
+  background: #fff;
+  border: 2px solid white;
+  border-radius: 22px;
+  padding: 12px 12px 16px;
+  box-shadow: 0 2px 10px grey;
+}
+
+.card:hover {
+  border-color: #7913d2;
+  box-shadow: 0 20px 40px grey;
+}
+
+
+.body {
+  position: relative;
+  height: 200px;
+  border-radius: 16px;
+  overflow: hidden;
+
+}
+
+.body img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay{
+  position: absolute;
+  inset: 0;
+  background: black;
+  opacity: 0; 
+}
+
+.card:hover .overlay{
+    opacity: 2;
+}
+
+
+
+.tags {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.tag {
+  background:black;
+  color: white;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 1000px;
+}
+
+.read-more {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  background: white;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 1000px;
+  opacity: 0;
+}
+
+.card:hover .read-more {
+  opacity: 1;
+}
+
+
+
+.content {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: gray;
+  margin: 18px 8px 0;
+}
+
+.title {
+  font-size: 21px;
+  margin: 14px 8px 10px;
+}
+
+.card:hover .title {
+  color: #8b09dc;
+}
+
+.paragraph {
+  font-size: 15px;
+  color: gray;
+  margin: 0 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid grey;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 14px 8px 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #8a5a8a;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.author h4 {
+  display: block;
+  font-size: 14px;
+}
+
+.author h5 {
+  font-size: 12px;
+  color: gray;
+}
+
+.arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #6e3a7f;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+}
+
+.card:hover .arrow {
+  background: gray;
+}
