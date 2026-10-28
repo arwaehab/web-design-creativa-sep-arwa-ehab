@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+img {
+  display: block;
+}
+
+
+.page{
+  max-width: 1125px;
+  margin: 0 auto;
+  background: white;
+  padding: 0 54px 40px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px 0;
+
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.brand-name {
+  font-size: 20px;
+  color: rgb(150, 137, 112);
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  font-size: 14px;
+  color: rgb(150, 137, 112);
+  
+}
+
+.nav-links a:hover{
+    color: black;
+}
+
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 110px;
+}
+
+.header-content h1 {
+  font-size: 54px;
+  color: rgb(150, 137, 112);
+}
+
+.header-content p {
+  max-width: 720px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.header-content button {
+  margin-top: 28px;
+  padding: 12px 60px;
+  border: none;
+  border-radius: 40px;
+  background: wheat;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+.header-img {
+  display: flex;
+  gap: 38px;
+  margin-top: 44px;
+}
+
+.header-img img {
+  flex: 1;
+  min-width: 0;
+  height: 306px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+
+
+

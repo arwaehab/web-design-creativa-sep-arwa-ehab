@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.road{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    margin-top: 10px;
+}
+
+.car{
+    position: absolute;
+    top: 25%;
+    transform: translateX(50%);
+    animation: movecar 5s linear infinite;
+}
+
+.car img{
+    width: 250px;
+    display: block;
+}
+
+
+
+@keyframes movecar{
+    from {
+        left: 0;
+       transform: translate(-50%, 0);
+    }
+    to {
+       left: 100%;
+    }
+}
